@@ -45,7 +45,8 @@
 		C674A0301F7500A600831197 = {
 			isa = PBXGroup;
 			children = (
-				C674A03B1F7500A600831197 /* Barber */,
+				C69DCC911F78CEB400EA1A63 /* Barber */,
+				C674A03B1F7500A600831197 /* BarberDemo */,
 				C674A03A1F7500A600831197 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,11 +59,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C674A03B1F7500A600831197 /* Barber */ = {
+		C674A03B1F7500A600831197 /* BarberDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C674A0521F7500B100831197 /* Barber.h */,
-				C674A0531F7500B100831197 /* Barber.m */,
 				C674A03C1F7500A600831197 /* AppDelegate.h */,
 				C674A03D1F7500A600831197 /* AppDelegate.m */,
 				C674A03F1F7500A600831197 /* ViewController.h */,
@@ -72,6 +71,15 @@
 				C674A0471F7500A600831197 /* LaunchScreen.storyboard */,
 				C674A04A1F7500A600831197 /* Info.plist */,
 				C674A04B1F7500A600831197 /* main.m */,
+			);
+			path = BarberDemo;
+			sourceTree = "<group>";
+		};
+		C69DCC911F78CEB400EA1A63 /* Barber */ = {
+			isa = PBXGroup;
+			children = (
+				C674A0521F7500B100831197 /* Barber.h */,
+				C674A0531F7500B100831197 /* Barber.m */,
 			);
 			path = Barber;
 			sourceTree = "<group>";
@@ -286,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Barber/Info.plist;
+				INFOPLIST_FILE = BarberDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.laizw.Barber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,7 +309,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Barber/Info.plist;
+				INFOPLIST_FILE = BarberDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.laizw.Barber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
